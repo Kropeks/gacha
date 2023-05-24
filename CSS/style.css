@@ -9,7 +9,7 @@
 .homebar{
     width: 100%;
     height: 100vh;
-    background: url(./img/blue.jpg);
+    background: url('img/blue.jpg');
     background-size: cover;
 
 }
@@ -185,7 +185,7 @@
 #about{
     width: 100%;
     height: 100vh;
-    background: url("./img/aesthe.jpg");
+    background: url('img/aesthe.jpg');
     padding: 6px;
     display: flex;
     align-items: center;
@@ -275,7 +275,7 @@
 #services{
     width: 100%;
     height: 100vh;
-    background-image: url('./img/purple.png');
+    background-image: url('img/purple.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
