@@ -1,0 +1,50 @@
+body{
+    background: rgb(2, 28, 20);
+    font-family: sans-serif;
+}
+h1{
+    color: rgb(6, 6, 57);
+    position: relative;
+    text-align: center;
+}
+.box1st{
+    background-color: rgba(204, 243, 225, 0.6);
+    max-width: 400px;
+    margin-left: 350px;
+    margin: 50px auto;
+}
+.box1st a{
+    color: black;
+}
+form{
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: rgb(123, 248, 207, 0.6);
+}
+.formformat{
+ text-align: left;
+ margin-bottom: 10px;
+}
+.formformat input, .formformat select{
+    display: block;
+    padding: 8px;
+    width: 98%;
+}
+textarea{
+    display: block;
+    padding: 4px;
+    width: 99%;
+}
+.formformat input[type="radio"], .formformat input[type="checkbox"]{
+    display: inline;
+    width: auto;
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+}
+button:hover{
+    transform: scale(1.05);
+    z-index: 5;
+}
